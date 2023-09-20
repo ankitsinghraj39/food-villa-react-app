@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+
+    & .nav-bar>ul{
+        list-style-type: none;
+        display: flex;
+
+        & ls{
+            padding: 10px;
+        }
+    }
+}
+.logo{
+    width: 100px;
+}
+
+.card{
+    width: 150px;
+    border: 1px solidb black;
+    padding: 10px;
+
+    & img{
+        width: 100%;
+    }
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+}
